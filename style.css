@@ -1,0 +1,399 @@
+.section-1{
+    background-color: #4CB9E7;
+    height: 800px;
+    width: 100%;
+}
+.section-1>div{
+    height: 800px;
+    width: 100%;
+}
+.middle-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mountain{
+    height: 200px;
+}
+.cloud1{
+    height: 100px;
+}
+.world{
+    height: 200px;
+}
+.cloud2{
+    height: 50px;
+}
+
+
+.middle-part h1 {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    margin: 0;
+    color: #0B60B0;
+  }
+
+.middle-part p {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    margin: 0;
+    color: #0B60B0;
+  }
+.grid-system{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1.5fr 1fr;
+}
+.bottom-part{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.top-part{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.top-part>div{
+    display: flex;
+    justify-content: center;
+}
+
+.section-2, .section-3 , .section-4{
+    height: fit-content;
+    width: 100%;
+    background-color: #FFECD6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+body > section.section-2 > div > div:nth-child(3) > p{
+    width: 30%;
+}
+.section-2> div{
+    width: 100%;
+}
+h2{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    margin: 0;
+    color: #4CB9E7;
+  }
+.section-2 p{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+    margin: 0;
+    color: black;
+    text-align: center;
+}
+.dog-image{
+    margin-top: 50px;
+    border: 10px solid black;
+}
+.section-2 div>*{
+    display: flex;
+    justify-content: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr;
+    gap: 50px;
+    margin-top: 50px;
+    width: 100%;
+}
+.grid>*{
+    display: flex;
+    justify-content: center;
+}
+
+
+button{
+    padding: 10px;
+    background-color: #0B60B0;
+    border-radius: 10px;
+    color: #FFECD6;
+    border: 0px;
+}
+.grid>div>img{
+    height: 150px;
+}
+
+.section-5{
+    height: fit-content;
+    width: 100%;
+    background-color: #EBD9B4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer{
+    border-top: 2px solid #212529BF;
+}
+
+
+
+
+
+@media (max-width: 1200px){
+    .mountain{
+        height: 140px;
+    }
+    .cloud1{
+        height: 80px;
+    }
+    .world{
+        height: 140px;
+    }
+    .cloud2{
+        height: 45px;
+    }
+    .middle-part h1 {
+        font-family: "Pacifico", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 80px;
+        margin: 0;
+        color: #0B60B0;
+      }
+    
+    .middle-part p {
+        font-family: "Pacifico", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 20px;
+        margin: 0;
+        color: #0B60B0;
+      }
+      body > section.section-2 > div > div:nth-child(3) > p{
+        width: 30%;
+    }
+    .grid>div>img{
+        height: 120px;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 992px){
+    .mountain{
+        height: 120px;
+    }
+    .cloud1{
+        height: 60px;
+    }
+    .world{
+        height: 120px;
+    }
+    .cloud2{
+        height: 35px;
+    }
+    .middle-part h1 {
+        font-family: "Pacifico", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 65px;
+        margin: 0;
+        color: #0B60B0;
+      }
+    
+    .middle-part p {
+        font-family: "Pacifico", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 20px;
+        margin: 0;
+        color: #0B60B0;
+      }
+      body > section.section-2 > div > div:nth-child(3) > p{
+        width: 50%;
+    }
+    .grid>div>img{
+        height: 100px;
+    }
+}
+
+
+
+
+
+@media (max-width: 768px){
+    .mountain{
+        height: 100px;
+    }
+    .cloud1{
+        height: 50px;
+    }
+    .world{
+        height: 100px;
+    }
+    .cloud2{
+        height: 25px;
+    }
+    .middle-part h1 {
+        font-family: "Pacifico", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 50px;
+        margin: 0;
+        color: #0B60B0;
+      }
+    
+    .middle-part p {
+        font-family: "Pacifico", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 10px;
+        margin: 0;
+        color: #0B60B0;
+      }
+      body > section.section-2 > div > div:nth-child(3) > p{
+        width: 50%;
+    }
+    .grid>div>img{
+        height: 80px;
+    }
+}
+
+
+
+@media (max-width: 576px){
+    .mountain{
+        height: 75px;
+    }
+    .cloud1{
+        height: 50px;
+    }
+    .world{
+        height: 100px;
+    }
+    .cloud2{
+        height: 25px;
+    }
+    .middle-part h1 {
+        font-family: "Pacifico", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 50px;
+        margin: 0;
+        color: #0B60B0;
+      }
+    
+    .middle-part p {
+        font-family: "Pacifico", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 10px;
+        margin: 0;
+        color: #0B60B0;
+      }
+      body > section.section-2 > div > div:nth-child(3) > p{
+        width: 70%;
+    }
+    .grid>div>img{
+        height: 80px;
+    }
+}
+
+
+
+@media (max-width: 425px){
+    .mountain{
+        height: 65px;
+    }
+    .cloud1{
+        height: 50px;
+    }
+    .world{
+        height: 100px;
+    }
+    .cloud2{
+        height: 25px;
+    }
+    .middle-part h1 {
+        font-family: "Pacifico", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 50px;
+        margin: 0;
+        color: #0B60B0;
+      }
+    
+    .middle-part p {
+        font-family: "Pacifico", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 10px;
+        margin: 0;
+        color: #0B60B0;
+      }
+      body > section.section-2 > div > div:nth-child(3) > p{
+        width: 80%;
+    }
+    .grid>div>img{
+        height: 80px;
+    }
+}
+
+
+
+@media (max-width: 375px){
+    .mountain{
+        height: 55px;
+    }
+    .cloud1{
+        height: 50px;
+    }
+    .world{
+        height: 100px;
+    }
+    .cloud2{
+        height: 25px;
+    }
+    .middle-part h1 {
+        font-family: "Pacifico", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 40px;
+        margin: 0;
+        color: #0B60B0;
+      }
+    
+    .middle-part p {
+        font-family: "Pacifico", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 10px;
+        margin: 0;
+        color: #0B60B0;
+      }
+      body > section.section-2 > div > div:nth-child(3) > p{
+        width: 80%;
+    }
+    .grid>div>img{
+        height: 80px;
+    }
+}
+
+
+
+
